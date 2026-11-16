@@ -1,0 +1,1 @@
+document.getElementById('year').textContent=new Date().getFullYear();const b=document.querySelector('.menu-btn');if(b)b.addEventListener('click',()=>{const n=document.getElementById('menu');const o=n.classList.toggle('open');b.setAttribute('aria-expanded',String(o));b.textContent=o?'✕':'☰'});
